@@ -16,7 +16,7 @@ function App() {
     setShowNewUser(!showNewUser);
   };
 
-  /** Fetching userLists from the API and storing them in the userLists */
+  /** Fetching data from the API  */
   useEffect(() => {
     const fetchUsers = async () => {
       try {
